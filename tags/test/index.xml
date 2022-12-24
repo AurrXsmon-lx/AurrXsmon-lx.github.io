@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on AurrXsmon.lx&#39;s Blog</title>
+    <link>https://aurrxsmon-lx.github.io/tags/test/</link>
+    <description>Recent content in test on AurrXsmon.lx&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sat, 24 Dec 2022 10:24:23 +0800</lastBuildDate><atom:link href="https://aurrxsmon-lx.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tagtest</title>
+      <link>https://aurrxsmon-lx.github.io/blog/tag%E7%9A%84%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Sat, 24 Dec 2022 10:24:23 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/tag%E7%9A%84%E6%B5%8B%E8%AF%95/</guid>
+      <description>写了几篇文章，都没有添加tag
+感觉这样看起来很麻烦，就测试一下tag在hugo里的使用和显示
+RT
+实际上把上面的基本信息都填了看一下效果吧
+好吧没啥明显效果，真不愧是主打极简的主题</description>
+    </item>
+    
+  </channel>
+</rss>
