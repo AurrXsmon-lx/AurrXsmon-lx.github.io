@@ -16,7 +16,7 @@
       <guid>https://aurrxsmon-lx.github.io/blog/blog%E9%83%A8%E7%BD%B2%E5%91%BD%E4%BB%A4/</guid>
       <description>总是忘记git部署博客到github上的命令，做一个备忘
 在blog目录下
-hugo -Dcd publicgit initgit add .git commit -m &amp;quot;your commit&amp;quot;git remote rm origingit remote add origin https://github.com/xxx/xxx.github.io.git</description>
+hugo -Dcd publicgit initgit add .git commit -m &amp;quot;your commit&amp;quot;git remote rm origingit remote add origin https://github.com/xxx/xxx.github.io.git	</description>
     </item>
     
     <item>
