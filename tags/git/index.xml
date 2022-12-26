@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on AurrXsmon.lx&#39;s Blog</title>
+    <link>https://aurrxsmon-lx.github.io/tags/git/</link>
+    <description>Recent content in git on AurrXsmon.lx&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sat, 24 Dec 2022 09:54:06 +0800</lastBuildDate><atom:link href="https://aurrxsmon-lx.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git中的problem</title>
+      <link>https://aurrxsmon-lx.github.io/blog/gitproblem/</link>
+      <pubDate>Sat, 24 Dec 2022 09:54:06 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/gitproblem/</guid>
+      <description>git上传blog到github上时，遇到一些问题
+执行
+git remote add origin https://github.com/xxx/xxx.github.io.git
+powershell返回
+error: remote origin already exists.
+解决方法：
+git remote rm origin 解除origin 再运行git remote add origin https://github.com/xxx/xxx.github.io.git </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,18 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 24 Dec 2022 10:24:23 +0800</lastBuildDate><atom:link href="https://aurrxsmon-lx.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Dec 2022 12:07:31 +0800</lastBuildDate><atom:link href="https://aurrxsmon-lx.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo新建文章后的初始化各项的值</title>
+      <link>https://aurrxsmon-lx.github.io/blog/post2/</link>
+      <pubDate>Mon, 26 Dec 2022 12:07:31 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/post2/</guid>
+      <description>正文 title: &amp;ldquo;这里填标题，也就是显示的一级标题&amp;rdquo;
+date: 2022-12-26T12:07:31+08:00（系统默认日期，从我的使用情况来看，还挺精准）
+slug: &amp;ldquo;这里填里文章所在地址的子域名&amp;rdquo;
+description: &amp;ldquo;这个就是html中的head部分的description，下面的keyword也一样&amp;rdquo;
+keywords: []
+draft: false（是否是草稿，具体用法看我的另一篇blog）
+tags: [&amp;rsquo;test&amp;rsquo;]（标签）
+math: false（是否采用数学公式）
+toc: true（是否采用目录，效果参见本文）
+测试目录 测试一下目录
+三级标题 三级标题下的文字1
+三级标题2 三级标题下的文字2</description>
+    </item>
+    
     <item>
       <title>Tagtest</title>
-      <link>https://aurrxsmon-lx.github.io/blog/tag%E7%9A%84%E6%B5%8B%E8%AF%95/</link>
+      <link>https://aurrxsmon-lx.github.io/blog/%E8%BF%99%E6%98%AFslug/</link>
       <pubDate>Sat, 24 Dec 2022 10:24:23 +0800</pubDate>
       
-      <guid>https://aurrxsmon-lx.github.io/blog/tag%E7%9A%84%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://aurrxsmon-lx.github.io/blog/%E8%BF%99%E6%98%AFslug/</guid>
       <description>写了几篇文章，都没有添加tag
 感觉这样看起来很麻烦，就测试一下tag在hugo里的使用和显示
 RT
 实际上把上面的基本信息都填了看一下效果吧
 好吧没啥明显效果，真不愧是主打极简的主题</description>
+    </item>
+    
+    <item>
+      <title>两句让我挺触动的诗词</title>
+      <link>https://aurrxsmon-lx.github.io/blog/poem/</link>
+      <pubDate>Sat, 24 Dec 2022 10:19:07 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/poem/</guid>
+      <description>黄花白发相牵挽，付与时人冷眼看。（黄庭坚）
+休言万事转头空，未转头时皆梦。（苏轼）
+另外Typora在blog文章的初始化状态下为什么不能直接在开头打中文，只有在源代码模式里打才可以
+好吧，这篇文章其实是测试hugo渲染markdown中的引用
+从我自己的效果来看，这引用怎么和斜体一样啊 :(</description>
     </item>
     
   </channel>

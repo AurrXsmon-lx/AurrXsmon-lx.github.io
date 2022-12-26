@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ocean on AurrXsmon.lx&#39;s Blog</title>
+    <link>https://aurrxsmon-lx.github.io/tags/ocean/</link>
+    <description>Recent content in ocean on AurrXsmon.lx&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sat, 24 Dec 2022 10:19:07 +0800</lastBuildDate><atom:link href="https://aurrxsmon-lx.github.io/tags/ocean/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>两句让我挺触动的诗词</title>
+      <link>https://aurrxsmon-lx.github.io/blog/poem/</link>
+      <pubDate>Sat, 24 Dec 2022 10:19:07 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/poem/</guid>
+      <description>黄花白发相牵挽，付与时人冷眼看。（黄庭坚）
+休言万事转头空，未转头时皆梦。（苏轼）
+另外Typora在blog文章的初始化状态下为什么不能直接在开头打中文，只有在源代码模式里打才可以
+好吧，这篇文章其实是测试hugo渲染markdown中的引用
+从我自己的效果来看，这引用怎么和斜体一样啊 :(</description>
+    </item>
+    
+    <item>
+      <title>What does lx stand for???</title>
+      <link>https://aurrxsmon-lx.github.io/blog/lx/</link>
+      <pubDate>Sat, 24 Dec 2022 10:10:54 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/lx/</guid>
+      <description>Lingardinho Extra Large Lover
+好吧我自己都编不下去了
+回头再说lx的意思吧
+但我真的是Lingradinho Lingard的XL lover
+水一篇文章</description>
+    </item>
+    
+    <item>
+      <title>Typora终于要收费了</title>
+      <link>https://aurrxsmon-lx.github.io/blog/typora/</link>
+      <pubDate>Sat, 24 Dec 2022 10:04:09 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/typora/</guid>
+      <description>Typora终于要收费了
+因为很久没有写blog了，最近文章一直写在notion上，所以很久没有用md应用了
+快放假了，再加上疫情在家上网课，于是想折腾一下，通过hugo搭建博客
+于是下载Typora，结果发现Typora只能使用15天，不支持免费试用了
+本来以为我是在中文站下载的被坑了，结果发现Typora要收费了
+虽然Typora这样的优秀md编辑体验绝对值得它的价格，但我实在买不起
+我现在在使用Typora的试用期写这篇文章，等试用期过了考虑换Typora beta版或者是换一个md软件
+说真的，我觉得Typora的md体验研发也不是很难，为什么市面上的md编辑器就没有一个能做到Typora的效果呢？
+等我有能力有时间了我也开发一个md编辑器XD</description>
+    </item>
+    
+  </channel>
+</rss>

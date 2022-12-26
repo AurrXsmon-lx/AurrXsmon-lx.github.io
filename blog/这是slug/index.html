@@ -2,12 +2,12 @@
 <html lang="en-us">
 
 <head>
-  <title>Hugo部署中的问题 | AurrXsmon.lx&#39;s Blog</title>
+  <title>Tagtest | AurrXsmon.lx&#39;s Blog</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="这是description">
+  <meta name="keywords" content="这是keywords">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,9 +49,9 @@
             "@id": "https:\/\/aurrxsmon-lx.github.io\/"
       },
       "articleSection" : "blog",
-      "name" : "Hugo部署中的问题",
-      "headline" : "Hugo部署中的问题",
-      "description" : "",
+      "name" : "Tagtest",
+      "headline" : "Tagtest",
+      "description" : "这是description",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -59,11 +59,11 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-12-24 09:48:53 \u002b0800 CST",
-      "dateModified" : "2022-12-24 09:48:53 \u002b0800 CST",
-      "url" : "https:\/\/aurrxsmon-lx.github.io\/blog\/hugo\/",
-      "wordCount" : "17",
-      "keywords" : ["Blog"]
+      "datePublished": "2022-12-24 10:24:23 \u002b0800 CST",
+      "dateModified" : "2022-12-24 10:24:23 \u002b0800 CST",
+      "url" : "https:\/\/aurrxsmon-lx.github.io\/blog\/%E8%BF%99%E6%98%AFslug\/",
+      "wordCount" : "5",
+      "keywords" : ["这是keywords", "Blog"]
     }
   
   </script>
@@ -104,25 +104,16 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">Hugo部署中的问题</h1>
-            <time datetime="2022-12-24 09:48:53 &#43;0800 CST" class="post__date">Dec 24 2022</time> 
+            <h1 id="post__title">Tagtest</h1>
+            <time datetime="2022-12-24 10:24:23 &#43;0800 CST" class="post__date">Dec 24 2022</time> 
           </header>
           <article class="post__content">
               
-<p>hugo在本地部署时，用</p>
-<p><code>hugo server -D</code></p>
-<p>本地部署界面没有问题</p>
-<p>在根据教程上传到github上时出现了问题，如文章不显示，css不能渲染</p>
-<ol>
-<li>将config.toml中的baseUrl后的参数改成自己的github网址</li>
-<li>生成public的命令改成<code>hugo -D</code>后上传就可以了</li>
-</ol>
-<p>其中不能显示文章</p>
-<p>追根溯源，是因为文章里的draft（草稿）后的值是true</p>
-<p>也就是说把文章里的draft值改为false后</p>
-<p>不论是使用<code>hugo server</code>部署在本地，还是用其他命令部署在public文件夹都可以显示文章</p>
-<p>但是如果你很懒，不想一个一个改draft，最好的方法就是在命令后加上<code>-D</code></p>
-<p>2022/12/6 更改：还是用<code>-D</code>部署吧，如果修改draft仍然有tag页不能正常显示的情况</p>
+<p>写了几篇文章，都没有添加tag</p>
+<p>感觉这样看起来很麻烦，就测试一下tag在hugo里的使用和显示</p>
+<p>RT</p>
+<p>实际上把上面的基本信息都填了看一下效果吧</p>
+<p>好吧没啥明显效果，真不愧是主打极简的主题</p>
 
 
               
@@ -132,24 +123,21 @@
 <ul class="tags__list">
     
     <li class="tag__item">
-        <a class="tag__link" href="https://aurrxsmon-lx.github.io/tags/hugo%E5%8D%9A%E5%AE%A2/">hugo博客</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://aurrxsmon-lx.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/">命令行</a>
+        <a class="tag__link" href="https://aurrxsmon-lx.github.io/tags/test/">test</a>
     </li></ul>
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://aurrxsmon-lx.github.io/blog/choco/">
+    <a class="pagination__item" href="https://aurrxsmon-lx.github.io/blog/poem/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">Choco运行显示超时</span>
+        <span class="pagination__title">两句让我挺触动的诗词</span>
     </a>
   
 
   
-    <a class="pagination__item" href="https://aurrxsmon-lx.github.io/blog/gitproblem/">
+    <a class="pagination__item" href="https://aurrxsmon-lx.github.io/blog/post2/">
       <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >Git中的problem</span>
+      <span class="pagination__title" >hugo新建文章后的初始化各项的值</span>
     </a>
   
 </div>

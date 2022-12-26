@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>命令行 on AurrXsmon.lx&#39;s Blog</title>
+    <link>https://aurrxsmon-lx.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/</link>
+    <description>Recent content in 命令行 on AurrXsmon.lx&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Mon, 26 Dec 2022 16:19:07 +0800</lastBuildDate><atom:link href="https://aurrxsmon-lx.github.io/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog部署命令</title>
+      <link>https://aurrxsmon-lx.github.io/blog/blog%E9%83%A8%E7%BD%B2%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Mon, 26 Dec 2022 16:19:07 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/blog%E9%83%A8%E7%BD%B2%E5%91%BD%E4%BB%A4/</guid>
+      <description>总是忘记git部署博客到github上的命令，做一个备忘
+在blog目录下
+hugo -Dcd publicgit initgit add .git commit -m &amp;quot;your commit&amp;quot;git remote rm origingit remote add origin https://github.com/xxx/xxx.github.io.git</description>
+    </item>
+    
+    <item>
+      <title>hugo如何新建文章</title>
+      <link>https://aurrxsmon-lx.github.io/blog/post/</link>
+      <pubDate>Sat, 24 Dec 2022 10:01:28 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/post/</guid>
+      <description>hugo新建文章命令
+hugo new blog/name.md
+name是你的md文件名字
+blog文件夹有可能要改成post，按照你的hugo主题改变</description>
+    </item>
+    
+    <item>
+      <title>Git中的problem</title>
+      <link>https://aurrxsmon-lx.github.io/blog/gitproblem/</link>
+      <pubDate>Sat, 24 Dec 2022 09:54:06 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/gitproblem/</guid>
+      <description>git上传blog到github上时，遇到一些问题
+执行
+git remote add origin https://github.com/xxx/xxx.github.io.git
+powershell返回
+error: remote origin already exists.
+解决方法：
+git remote rm origin 解除origin 再运行git remote add origin https://github.com/xxx/xxx.github.io.git </description>
+    </item>
+    
+    <item>
+      <title>Hugo部署中的问题</title>
+      <link>https://aurrxsmon-lx.github.io/blog/hugo/</link>
+      <pubDate>Sat, 24 Dec 2022 09:48:53 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/hugo/</guid>
+      <description>hugo在本地部署时，用
+hugo server -D
+本地部署界面没有问题
+在根据教程上传到github上时出现了问题，如文章不显示，css不能渲染
+将config.toml中的baseUrl后的参数改成自己的github网址 生成public的命令改成hugo -D后上传就可以了 其中不能显示文章
+追根溯源，是因为文章里的draft（草稿）后的值是true
+也就是说把文章里的draft值改为false后
+不论是使用hugo server部署在本地，还是用其他命令部署在public文件夹都可以显示文章
+但是如果你很懒，不想一个一个改draft，最好的方法就是在命令后加上-D
+2022/12/6 更改：还是用-D部署吧，如果修改draft仍然有tag页不能正常显示的情况</description>
+    </item>
+    
+    <item>
+      <title>Choco运行显示超时</title>
+      <link>https://aurrxsmon-lx.github.io/blog/choco/</link>
+      <pubDate>Fri, 23 Dec 2022 22:32:21 +0800</pubDate>
+      
+      <guid>https://aurrxsmon-lx.github.io/blog/choco/</guid>
+      <description>默认情况下，Chocolatey 的命令超时时间为 45 分钟（2700 秒），如下所述：
+https://chocolatey.org/docs/chocolatey-configuration#general
+下载流星安装程序是否需要比这更长的时间？
+如果是这样，您可以使用与此类似的命令更改该值：
+choco config set --name &amp;lt;nameFromBelow&amp;gt; --value &amp;lt;value&amp;gt;即在您的情况下（再次作为示例）：
+choco config set --name commandExecutionTimeoutSeconds --value 5400或者，如果您只想将此超时应用于单个命令，您可以尝试：
+choco install meteor --execution-timeout 5400如错误输出中所述。</description>
+    </item>
+    
+  </channel>
+</rss>
