@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>Git中的problem | AurrXsmon.lx&#39;s Blog</title>
+  <title>git push到github上遇到的一些问题 | AurrXsmon.lx&#39;s Blog</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
@@ -49,8 +49,8 @@
             "@id": "https:\/\/aurrxsmon-lx.github.io\/"
       },
       "articleSection" : "blog",
-      "name" : "Git中的problem",
-      "headline" : "Git中的problem",
+      "name" : "git push到github上遇到的一些问题",
+      "headline" : "git push到github上遇到的一些问题",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -62,7 +62,7 @@
       "datePublished": "2022-12-24 09:54:06 \u002b0800 CST",
       "dateModified" : "2022-12-24 09:54:06 \u002b0800 CST",
       "url" : "https:\/\/aurrxsmon-lx.github.io\/blog\/gitproblem\/",
-      "wordCount" : "24",
+      "wordCount" : "27",
       "keywords" : ["Blog"]
     }
   
@@ -104,17 +104,20 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">Git中的problem</h1>
+            <h1 id="post__title">git push到github上遇到的一些问题</h1>
             <time datetime="2022-12-24 09:54:06 &#43;0800 CST" class="post__date">Dec 24 2022</time> 
           </header>
           <article class="post__content">
               
+<h2 id="问题描述">问题描述<a class="anchor" href="#问题描述">#</a></h2>
 <p>git上传blog到github上时，遇到一些问题</p>
 <p>执行</p>
 <p><code>git remote add origin https://github.com/xxx/xxx.github.io.git</code></p>
 <p>powershell返回</p>
 <p><code>error: remote origin already exists.</code></p>
-<p><strong>解决方法：</strong></p>
+<h2 id="问题原因">问题原因<a class="anchor" href="#问题原因">#</a></h2>
+<p>git中已经有<code>origin</code>了，需要先解除已有<code>origin</code>再添加新的<code>origin</code></p>
+<h2 id="解决方法">解决方法<a class="anchor" href="#解决方法">#</a></h2>
 <ol>
 <li><code>git remote rm origin</code> 解除origin</li>
 <li>再运行<code>git remote add origin https://github.com/xxx/xxx.github.io.git</code></li>
@@ -193,6 +196,17 @@
           </div>
       </div>
       
+      <div class="toc-container">
+          
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#问题描述">问题描述</a></li>
+    <li><a href="#问题原因">问题原因</a></li>
+    <li><a href="#解决方法">解决方法</a></li>
+  </ul>
+</nav>
+      </div>
+      
     </div>
     
 
@@ -210,6 +224,8 @@
   <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
     data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
 
+  
+    <script src="/js/table-of-contents.js"></script>
   
 
 

@@ -62,7 +62,7 @@
       "datePublished": "2022-12-24 09:48:53 \u002b0800 CST",
       "dateModified" : "2022-12-24 09:48:53 \u002b0800 CST",
       "url" : "https:\/\/aurrxsmon-lx.github.io\/blog\/hugo\/",
-      "wordCount" : "17",
+      "wordCount" : "23",
       "keywords" : ["Blog"]
     }
   
@@ -111,18 +111,12 @@
               
 <p>hugo在本地部署时，用</p>
 <p><code>hugo server -D</code></p>
-<p>本地部署界面没有问题</p>
+<p>xxxxxxxxxx hugo -Dcd publicgit initgit add .git commit -m &ldquo;your commit&quot;git push -u origin mainshell</p>
 <p>在根据教程上传到github上时出现了问题，如文章不显示，css不能渲染</p>
 <ol>
 <li>将config.toml中的baseUrl后的参数改成自己的github网址</li>
 <li>生成public的命令改成<code>hugo -D</code>后上传就可以了</li>
 </ol>
-<p>其中不能显示文章</p>
-<p>追根溯源，是因为文章里的draft（草稿）后的值是true</p>
-<p>也就是说把文章里的draft值改为false后</p>
-<p>不论是使用<code>hugo server</code>部署在本地，还是用其他命令部署在public文件夹都可以显示文章</p>
-<p>但是如果你很懒，不想一个一个改draft，最好的方法就是在命令后加上<code>-D</code></p>
-<p>2022/12/6 更改：还是用<code>-D</code>部署吧，如果修改draft仍然有tag页不能正常显示的情况</p>
 
 
               
@@ -149,7 +143,7 @@
   
     <a class="pagination__item" href="https://aurrxsmon-lx.github.io/blog/gitproblem/">
       <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >Git中的problem</span>
+      <span class="pagination__title" >git push到github上遇到的一些问题</span>
     </a>
   
 </div>

@@ -16,7 +16,7 @@
       <guid>https://aurrxsmon-lx.github.io/blog/blog%E9%83%A8%E7%BD%B2%E5%91%BD%E4%BB%A4/</guid>
       <description>总是忘记git部署博客到github上的命令，做一个备忘
 在blog目录下
-hugo -Dcd publicgit initgit add .git commit -m &amp;quot;your commit&amp;quot;git remote rm origingit remote add origin https://github.com/xxx/xxx.github.io.git	</description>
+hugo -Dcd publicgit initgit add .git commit -m &amp;quot;your commit&amp;quot;git push -u origin main</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@ hugo -Dcd publicgit initgit add .git commit -m &amp;quot;your commit&amp;quo
       <pubDate>Mon, 26 Dec 2022 12:07:31 +0800</pubDate>
       
       <guid>https://aurrxsmon-lx.github.io/blog/post2/</guid>
-      <description>正文 title: &amp;ldquo;这里填标题，也就是显示的一级标题&amp;rdquo;
+      <description>title: &amp;ldquo;这里填标题，也就是显示的一级标题&amp;rdquo;
 date: 2022-12-26T12:07:31+08:00（系统默认日期，从我的使用情况来看，还挺精准）
 slug: &amp;ldquo;这里填里文章所在地址的子域名&amp;rdquo;
 description: &amp;ldquo;这个就是html中的head部分的description，下面的keyword也一样&amp;rdquo;
@@ -33,10 +33,7 @@ keywords: []
 draft: false（是否是草稿，具体用法看我的另一篇blog）
 tags: [&amp;rsquo;test&amp;rsquo;]（标签）
 math: false（是否采用数学公式）
-toc: true（是否采用目录，效果参见本文）
-测试目录 测试一下目录
-三级标题 三级标题下的文字1
-三级标题2 三级标题下的文字2</description>
+toc: true（是否采用目录，效果参见本文）</description>
     </item>
     
     <item>
@@ -52,18 +49,18 @@ blog文件夹有可能要改成post，按照你的hugo主题改变</description>
     </item>
     
     <item>
-      <title>Git中的problem</title>
+      <title>git push到github上遇到的一些问题</title>
       <link>https://aurrxsmon-lx.github.io/blog/gitproblem/</link>
       <pubDate>Sat, 24 Dec 2022 09:54:06 +0800</pubDate>
       
       <guid>https://aurrxsmon-lx.github.io/blog/gitproblem/</guid>
-      <description>git上传blog到github上时，遇到一些问题
+      <description>问题描述 git上传blog到github上时，遇到一些问题
 执行
 git remote add origin https://github.com/xxx/xxx.github.io.git
 powershell返回
 error: remote origin already exists.
-解决方法：
-git remote rm origin 解除origin 再运行git remote add origin https://github.com/xxx/xxx.github.io.git </description>
+问题原因 git中已经有origin了，需要先解除已有origin再添加新的origin
+解决方法 git remote rm origin 解除origin 再运行git remote add origin https://github.com/xxx/xxx.github.io.git </description>
     </item>
     
     <item>
@@ -74,14 +71,9 @@ git remote rm origin 解除origin 再运行git remote add origin https://github.
       <guid>https://aurrxsmon-lx.github.io/blog/hugo/</guid>
       <description>hugo在本地部署时，用
 hugo server -D
-本地部署界面没有问题
+xxxxxxxxxx hugo -Dcd publicgit initgit add .git commit -m &amp;ldquo;your commit&amp;quot;git push -u origin mainshell
 在根据教程上传到github上时出现了问题，如文章不显示，css不能渲染
-将config.toml中的baseUrl后的参数改成自己的github网址 生成public的命令改成hugo -D后上传就可以了 其中不能显示文章
-追根溯源，是因为文章里的draft（草稿）后的值是true
-也就是说把文章里的draft值改为false后
-不论是使用hugo server部署在本地，还是用其他命令部署在public文件夹都可以显示文章
-但是如果你很懒，不想一个一个改draft，最好的方法就是在命令后加上-D
-2022/12/6 更改：还是用-D部署吧，如果修改draft仍然有tag页不能正常显示的情况</description>
+将config.toml中的baseUrl后的参数改成自己的github网址 生成public的命令改成hugo -D后上传就可以了 </description>
     </item>
     
   </channel>
